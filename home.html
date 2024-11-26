@@ -1,74 +1,579 @@
- <div class="container">
-        <div class="section">
-            <nav>
-                <div class="row align-items-center">
-                    <div class="col-6 col-md-4 col-lg-2">
-                        <div class="logo">
-                            <a href="">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Todoist_logo.png">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-8 col-lg-10">
-                        <div class="header">
-                            <i class="fa fa-search search-toggle"></i>
-                            <div class="search-bar">
-                                <input type="text" class="form-control" placeholder="Search store">
-                                <i class="fa fa-times search-close"></i>
-                            </div>
-                            <div class="menu">
-                                <i class="fa fa-bars menu-toggle"></i>
-                                <ul class="">
-                                    <li><a href="" class="active">products</a></li>
-                                    <li><a href="">story</a></li>
-                                    <li><a href="">manifacturing</a></li>
-                                    <li><a href="">packaging</a></li>
-                                    <li><a href=""><i class="fa fa-shopping-basket"></i></a></li>
-                                    <li><a href=""><i class="far fa-user"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            <main>
-                <div class="row">
-                    <div class="col-12 col-lg-2 col-md-3 order-2 order-md-1">
-                        <div class="sidebar">
-                            <h3 class="sidebar-title">Explore</h3>
-                            <ul>
-                                <li><a href=""><span>⚡️</span>New In</a></li>
-                                <li><a href=""><span>🧥</span>Clothes</a></li>
-                                <li><a href=""><span>👞</span>Shoes</a></li>
-                                <li><a href=""><span>👜</span>Accessories</a></li>
-                                <li><a href=""><span>🤸‍♀️</span>Activewear</a></li>
-                                <li><a href=""><span>🎁</span>Gift & Living</a></li>
-                                <li><a href=""><span>💎</span>Inspiration</a></li>
-                            </ul>
-                            <div class="help-center"><i class="fa fa-comment"></i>Help Center</div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-10 col-md-9 order-1 order-md-2">
-                        <div class="content">
-                            <div class="content-list horizontal">
-                                <div class="content-list-item"><img src="https://image.shutterstock.com/image-vector/online-shop-banner-building-icon-600w-674718844.jpg" alt=""></div>
-                                <div class="content-list-item"><img src="https://image.shutterstock.com/image-illustration/3d-rendering-promotion-sale-gifts-600w-1936237714.jpg" alt=""></div>
-                            </div>
-                            <div class="content-list vertical">
-                                <div class="content-list-item"><img src="https://image.shutterstock.com/image-vector/summer-time-top-view-on-600w-1098778193.jpg" alt=""></div>
-                                <div class="content-list-item"><img src="https://image.shutterstock.com/image-vector/summer-big-sale-banner-online-600w-1914583237.jpg" alt=""></div>
-                            </div>
-                            <div class="content-list vertical">
-                                <div class="content-list-item"><img src="https://image.shutterstock.com/image-vector/summer-mega-sale-75-off-600w-1914996232.jpg" alt=""></div>
-                                <div class="content-list-item"><img src="https://image.shutterstock.com/image-vector/summer-time-beach-icons-600w-1173527008.jpg" alt=""></div>
-                            </div>
-                            <div class="content-list horizontal">
-                                <div class="content-list-item"><img src="https://image.shutterstock.com/image-illustration/great-discount-sale-banner-design-600w-1846870939.jpg" alt=""></div>
-                                <div class="content-list-item"><img src="https://image.shutterstock.com/image-vector/great-discount-banner-design-3d-600w-1843697746.jpg" alt=""></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </main>
-        </div>
-    </div>
+<div class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="VwWgqGm" data-pen-title="e-Commerce UI Design" data-user="abdullahturkmen"  data-prefill='{"title":"e-Commerce UI Design","tags":[],"scripts":["https://code.jquery.com/jquery-3.6.0.js","https://codepen.io/abdullahturkmen/pen/ZEypWjK.js"],"stylesheets":["https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css","https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css","https://codepen.io/abdullahturkmen/pen/ZEypWjK.css"]}'>
+  <pre data-lang="html"> &lt;div class="container">
+        &lt;div class="section">
+            &lt;nav>
+                &lt;div class="row align-items-center">
+                    &lt;div class="col-6 col-md-4 col-lg-2">
+                        &lt;div class="logo">
+                            &lt;a href="">
+                                &lt;img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Todoist_logo.png">
+                            &lt;/a>
+                        &lt;/div>
+                    &lt;/div>
+                    &lt;div class="col-6 col-md-8 col-lg-10">
+                        &lt;div class="header">
+                            &lt;i class="fa fa-search search-toggle">&lt;/i>
+                            &lt;div class="search-bar">
+                                &lt;input type="text" class="form-control" placeholder="Search store">
+                                &lt;i class="fa fa-times search-close">&lt;/i>
+                            &lt;/div>
+                            &lt;div class="menu">
+                                &lt;i class="fa fa-bars menu-toggle">&lt;/i>
+                                &lt;ul class="">
+                                    &lt;li>&lt;a href="" class="active">products&lt;/a>&lt;/li>
+                                    &lt;li>&lt;a href="">story&lt;/a>&lt;/li>
+                                    &lt;li>&lt;a href="">manifacturing&lt;/a>&lt;/li>
+                                    &lt;li>&lt;a href="">packaging&lt;/a>&lt;/li>
+                                    &lt;li>&lt;a href="">&lt;i class="fa fa-shopping-basket">&lt;/i>&lt;/a>&lt;/li>
+                                    &lt;li>&lt;a href="">&lt;i class="far fa-user">&lt;/i>&lt;/a>&lt;/li>
+                                &lt;/ul>
+                            &lt;/div>
+                        &lt;/div>
+                    &lt;/div>
+                &lt;/div>
+            &lt;/nav>
+            &lt;main>
+                &lt;div class="row">
+                    &lt;div class="col-12 col-lg-2 col-md-3 order-2 order-md-1">
+                        &lt;div class="sidebar">
+                            &lt;h3 class="sidebar-title">Explore&lt;/h3>
+                            &lt;ul>
+                                &lt;li>&lt;a href="">&lt;span>⚡️&lt;/span>New In&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="">&lt;span>🧥&lt;/span>Clothes&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="">&lt;span>👞&lt;/span>Shoes&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="">&lt;span>👜&lt;/span>Accessories&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="">&lt;span>🤸‍♀️&lt;/span>Activewear&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="">&lt;span>🎁&lt;/span>Gift & Living&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="">&lt;span>💎&lt;/span>Inspiration&lt;/a>&lt;/li>
+                            &lt;/ul>
+                            &lt;div class="help-center">&lt;i class="fa fa-comment">&lt;/i>Help Center&lt;/div>
+                        &lt;/div>
+                    &lt;/div>
+                    &lt;div class="col-12 col-lg-10 col-md-9 order-1 order-md-2">
+                        &lt;div class="content">
+                            &lt;div class="content-list horizontal">
+                                &lt;div class="content-list-item">&lt;img src="https://image.shutterstock.com/image-vector/online-shop-banner-building-icon-600w-674718844.jpg" alt="">&lt;/div>
+                                &lt;div class="content-list-item">&lt;img src="https://image.shutterstock.com/image-illustration/3d-rendering-promotion-sale-gifts-600w-1936237714.jpg" alt="">&lt;/div>
+                            &lt;/div>
+                            &lt;div class="content-list vertical">
+                                &lt;div class="content-list-item">&lt;img src="https://image.shutterstock.com/image-vector/summer-time-top-view-on-600w-1098778193.jpg" alt="">&lt;/div>
+                                &lt;div class="content-list-item">&lt;img src="https://image.shutterstock.com/image-vector/summer-big-sale-banner-online-600w-1914583237.jpg" alt="">&lt;/div>
+                            &lt;/div>
+                            &lt;div class="content-list vertical">
+                                &lt;div class="content-list-item">&lt;img src="https://image.shutterstock.com/image-vector/summer-mega-sale-75-off-600w-1914996232.jpg" alt="">&lt;/div>
+                                &lt;div class="content-list-item">&lt;img src="https://image.shutterstock.com/image-vector/summer-time-beach-icons-600w-1173527008.jpg" alt="">&lt;/div>
+                            &lt;/div>
+                            &lt;div class="content-list horizontal">
+                                &lt;div class="content-list-item">&lt;img src="https://image.shutterstock.com/image-illustration/great-discount-sale-banner-design-600w-1846870939.jpg" alt="">&lt;/div>
+                                &lt;div class="content-list-item">&lt;img src="https://image.shutterstock.com/image-vector/great-discount-banner-design-3d-600w-1843697746.jpg" alt="">&lt;/div>
+                            &lt;/div>
+                        &lt;/div>
+                    &lt;/div>
+                &lt;/div>
+            &lt;/main>
+        &lt;/div>
+    &lt;/div></pre>
+  <pre data-lang="scss">@mixin mn576 {
+    @media screen and (min-width: 576px) {
+        @content;
+    }
+}
+@mixin mx575 {
+    @media screen and (max-width: 575px) {
+        @content;
+    }
+}
+
+@mixin mn768 {
+    @media screen and (min-width: 768px) {
+        @content;
+    }
+}
+@mixin mx767 {
+    @media screen and (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin mn992 {
+    @media screen and (min-width: 992px) {
+        @content;
+    }
+}
+@mixin mx991 {
+    @media screen and (max-width: 991px) {
+        @content;
+    }
+}
+
+@mixin mn1200 {
+    @media screen and (min-width: 1200px) {
+        @content;
+    }
+}
+@mixin mx1199 {
+    @media screen and (max-width: 1199px) {
+        @content;
+    }
+}
+
+//@include mn992 { }
+
+body {
+    background-color: #8ec5fc;
+    background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+
+    .section {
+        background: rgb(249, 250, 252);
+        background: linear-gradient(315deg, rgba(249, 250, 252, 1) 0%, rgba(227, 238, 250, 1) 100%);
+        margin-top: 3em;
+        margin-bottom: 3em;
+        border-radius: 20px;
+        padding: 2.5em;
+        box-shadow: 0 0 10px 0px #cccccc38;
+        @include mx991 {
+            padding: 1.5em;
+            margin-top: 2em;
+            margin-bottom: 2em;
+        }
+        @include mx767 {
+            padding: 0.75em;
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+
+        nav {
+            margin-bottom: 3em;
+            @include mx991 {
+                margin-bottom: 2em;
+            }
+            @include mx767 {
+                margin-bottom: 0.5em;
+                padding-bottom: 0.5em;
+                border-bottom: 1px solid #d2d2d2;
+            }
+            .logo {
+                img {
+                    width: 60%;
+                    max-width: 120px;
+                    @include mx991 {
+                        width: 75%;
+                    }
+                    @include mx575 {
+                        width: 90%;
+                    }
+                }
+            }
+            .header {
+                display: flex;
+                width: 100%;
+                align-items: center;
+                @include mx575 {
+                    justify-content: flex-end;
+                }
+                .search-toggle {
+                    @include mn576 {
+                        display: none;
+                    }
+                    @include mx575 {
+                        width: 30px;
+                        cursor: pointer;
+                    }
+                    color: #8a8a8a;
+                    transition: all 0.1s linear;
+                    &:hover {
+                        color: #444;
+                    }
+                }
+
+                .search-bar {
+                    @include mn576 {
+                        width: 100%;
+                        position: relative;
+                        .search-close {
+                            display: none;
+                        }
+                    }
+                    .search-close {
+                        display: none;
+                    }
+
+                    .form-control {
+                        background: transparent;
+                        border: none;
+                        outline: 0px !important;
+                        -webkit-appearance: none;
+                        box-shadow: none !important;
+                        height: 100%;
+                        padding-left: 2em;
+                        font-size: 14px;
+                        @include mx575 {
+                            display: none;
+                        }
+                        &:focus {
+                            outline: 0px !important;
+                            -webkit-appearance: none;
+                            box-shadow: none !important;
+                        }
+                        &:active {
+                            outline: 0px !important;
+                            -webkit-appearance: none;
+                            box-shadow: none !important;
+                        }
+                        &::placeholder {
+                            color: #adadad;
+                        }
+                    }
+                    &::before {
+                        content: "\f002";
+                        top: 50%;
+                        left: 0;
+                        transform: translate(0, -50%);
+                        font-family: "Font Awesome 6 Free";
+                        font-family: var(--fa-style-family, "Font Awesome 6 Free");
+                        font-weight: 900;
+                        @include mn576 {
+                            position: absolute;
+                        }
+                        @include mx575 {
+                            display: none;
+                        }
+                    }
+                    &.open {
+                        @include mx575 {
+                            .search-close {
+                                font-size: 24px;
+                                display: block;
+                                position: absolute;
+                                right: 0.75em;
+                                top: 50%;
+                                transform: translate(0, -50%);
+                                color: #8a8a8a;
+                                cursor: pointer;
+                                transition: all 0.1s linear;
+                                &:hover {
+                                    color: #444;
+                                }
+                            }
+                        }
+                        @include mx767 {
+                            display: block;
+                            position: fixed;
+                            background: #ffffff;
+                            top: 15px;
+                            left: 15px;
+                            width: calc(100% - 30px);
+                            height: 55px;
+                            z-index: 1;
+                            border-radius: 15px;
+                            box-shadow: 0 0 10px #84848470;
+                            &::before {
+                                display: block;
+                                position: absolute;
+                                left: 8px;
+                            }
+                            .form-control {
+                                display: block;
+                                padding-right: 3em;
+                            }
+                        }
+                    }
+                }
+                .menu {
+                    @include mn576 {
+                        margin-left: auto;
+                    }
+                    @include mn992 {
+                        width: 55%;
+                    }
+
+                    &-toggle {
+                        height: 100%;
+                        cursor: pointer;
+                        display: flex;
+                        align-items: center;
+                        font-size: 24px;
+                        color: #8a8a8a;
+                        transition: all 0.1s linear;
+                        &:hover {
+                            color: #444;
+                        }
+                        @include mn992 {
+                            display: none;
+                        }
+                    }
+                    ul {
+                        margin: 0;
+                        padding: 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        @include mx991 {
+                            position: fixed;
+                            width: 100%;
+                            max-width: 225px;
+                            left: -100%;
+                            top: 0;
+                            height: 100%;
+                            background-image: linear-gradient(120deg, #a6c0fef0 0%, #f68084 100%);
+                            display: block;
+                            z-index: 1;
+                            padding: 0.5em;
+                            transition: all 0.3s cubic-bezier(0.8, 0.35, 0.2, 0.65);
+                            border-top-right-radius: 2em;
+                            box-shadow: 0 0 10px #717171b8;
+
+                            li {
+                                a {
+                                    padding: 10px !important;
+                                    border-radius: 5px;
+                                    &.active {
+                                        border: 2px solid transparent !important;
+                                    }
+                                }
+                                &:hover {
+                                    a {
+                                        border-bottom: 2px solid transparent !important;
+                                        background-color: #dedede;
+                                    }
+                                }
+                            }
+                        }
+                        &.open {
+                            left: 0;
+                        }
+
+                        li {
+                            list-style-type: none;
+                            padding: 5px 10px;
+                            @include mx1199 {
+                                padding: 5px;
+                            }
+
+                            a {
+                                font-weight: 700;
+                                display: block;
+                                padding: 5px 0;
+                                text-decoration: none;
+                                color: #444;
+                                font-size: 14px;
+                                border-bottom: 2px solid transparent;
+                                &.active {
+                                    border-bottom: 2px solid #444;
+                                }
+                            }
+                            &:hover {
+                                a {
+                                    @include mn992 {
+                                        border-bottom: 2px solid #444 !important;
+                                    }
+                                }
+                                &:nth-last-child(-n + 2) {
+                                    a {
+                                        border-bottom: 2px solid transparent !important;
+                                        background-color: #dedede;
+                                        border-radius: 5px;
+                                    }
+                                }
+                            }
+                            &:nth-last-child(-n + 2) {
+                                margin: 0;
+                                a {
+                                    padding: 10px;
+                                }
+                            }
+                        }
+
+                        &:hover {
+                            li {
+                                a {
+                                    &.active {
+                                        border-bottom: 2px solid transparent;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        main {
+            .sidebar {
+                height: 100%;
+                .sidebar-title {
+                    font-weight: 700;
+                    margin-bottom: 1em;
+                }
+                ul {
+                    padding: 0;
+                    margin: 0;
+                    li {
+                        list-style-type: none;
+                        margin-bottom: 0.5em;
+                        cursor: pointer;
+                        position: relative;
+                        border-radius: 5px;
+                        overflow: hidden;
+
+                        a {
+                            color: #444;
+                            text-decoration: none;
+                            font-weight: 700;
+                            font-size: 12px;
+
+                            @include mx767 {
+                                display: flex;
+                                padding: 0.25em 2em 0.25em 0.5em;
+                                align-items: center;
+                                justify-content: space-between;
+                                &:hover {
+                                    background: #eaeaea;
+                                }
+                            }
+
+                            span {
+                                margin-right: 10px;
+                                font-size: 16px;
+                                @include mx767 {
+                                    float: left;
+                                }
+                            }
+                        }
+                        &::before {
+                            content: "";
+                            width: 0;
+                            height: 100%;
+                            background-color: #8ec5fc;
+                            background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+                            position: absolute;
+                            right: 0;
+                            top: 0;
+                            transition: all 0.2s linear;
+                        }
+                        &:hover {
+                            &::before {
+                                width: 10px;
+                            }
+                        }
+                    }
+                }
+                .help-center {
+                    position: absolute;
+                    bottom: 0;
+                    font-weight: 700;
+                    font-size: 12px;
+                    color: #444;
+                    cursor: pointer;
+                    @include mx767 {
+                        position: inherit;
+                    }
+
+                    i.fa {
+                        font-size: 16px;
+                        background-color: white;
+                        width: 35px;
+                        height: 35px;
+                        line-height: 35px;
+                        text-align: center;
+                        border-radius: 100%;
+                        margin-right: 15px;
+                    }
+                }
+            }
+            .content {
+                animation: bottom 0.8s 0s both;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 10px;
+                @include mx575 {
+                    display: block;
+                }
+                @include mx767 {
+                    margin-bottom: 1em;
+                }
+                &-list {
+                    display: grid;
+                    grid-gap: 10px;
+                    @include mx575 {
+                        margin-bottom: 10px;
+                    }
+
+                    &.vertical {
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+                    &.horizontal {
+                        grid-template-columns: repeat(1, 1fr);
+                    }
+                    &-item {
+                        border-radius: 10px;
+                        overflow: hidden;
+                        background-color: burlywood;
+                        position: relative;
+                        &::after {
+                            font-family: "Font Awesome 6 Free";
+                            font-family: var(--fa-style-family, "Font Awesome 6 Free");
+                            content: "\f004";
+                            position: absolute;
+                            width: 30px;
+                            height: 30px;
+                            background-color: white;
+                            top: 15px;
+                            right: 15px;
+                            border-radius: 100%;
+                            text-align: center;
+                            line-height: 30px;
+                            font-size: 14px;
+                            box-shadow: 0 0 10px #bdbdbd70;
+                            transition: all 0.2s linear;
+                            cursor: pointer;
+                        }
+                        &:hover {
+                            &::after {
+                                background-color: red;
+                                color: #fff;
+                            }
+                        }
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            transform: scale(1.15);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes bottom {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+</pre>
+  <pre data-lang="js">/*
+Inspired by AR Shakir
+Wigs - Ecommerce Website UI:
+https://dribbble.com/shots/15438373-Wigs-Ecommerce-Website-UI
+*/
+
+$(document).ready(function(){
+    $( ".menu-toggle" ).click(function() {
+        $('.menu ul').toggleClass('open');
+    });
+    $( ".search-toggle" ).click(function() {
+        $('.search-bar').toggleClass('open');
+    });
+    $( ".search-close" ).click(function() {
+        $('.search-bar').toggleClass('open');
+    });
+});</pre></div>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
